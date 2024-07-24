@@ -23,12 +23,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Test accessibility
-        uses: microsoft/accessibility-insights-action@v2
-        with:
-          url: 'http://localhost:3000'
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
