@@ -24,7 +24,9 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.4.0",
-    "@docusaurus/types": "3.4.0"
+    "@docusaurus/types": "3.4.0",
+    "eslint": "^9.7.0",
+    "prettier": "^3.3.3"
   },
   "browserslist": {
     "production": [
